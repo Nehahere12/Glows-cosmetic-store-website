@@ -1,0 +1,283 @@
+.imagecarousal {
+  margin-top: 4%;
+  /* background-color: red; */
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+.imagecarousal img {
+  width: 80%;
+  height: 120%;
+}
+
+.imagecarousal i:nth-child(1) {
+  font-size: 4rem;
+  margin-top: 20%;
+  color: rgb(164, 87, 164);
+  cursor: pointer;
+  margin-left: 4%;
+}
+.imagecarousal i:nth-child(3) {
+  font-size: 4rem;
+  margin-top: 20%;
+  color: rgb(164, 87, 164);
+  cursor: pointer;
+  margin-right: 4%;
+}
+
+.secondone {
+  display: flex;
+  gap: 73px;
+  height: 32vh;
+  width: 85%;
+  overflow-x: auto;
+  margin-left: 5%;
+
+  margin-top: 15%;
+}
+
+.secondone::-webkit-scrollbar {
+  display: none;
+}
+
+.secondone img {
+  width: 35vh;
+  height: 30vh;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.secondone img:hover {
+  transform: scale(1.2);
+}
+.third {
+  min-height: 60vh;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.third h2 {
+  color: rgb(172, 71, 157);
+  font-size: 2rem;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.scrollhere {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4%;
+  width: 100%;
+  background-color: black;
+
+  height: 80vh;
+}
+.scrollhere .fa-backward {
+  color: #fff;
+  font-size: 2.8rem;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+.scrollhere .fa-forward {
+  color: rgb(215, 135, 215);
+  font-size: 2.8rem;
+  margin-top: 15%;
+  margin-right: 3%;
+}
+
+.makeup-item {
+  /* margin-right: 3%; */
+  margin-top: 5%;
+
+  width: 55vh;
+}
+.makeup-item img {
+  width: 50vh;
+  height: 50vh;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-left: 5%;
+}
+.makeup-item img:hover {
+  transform: scale(1.1);
+}
+.makeup-item h2 {
+  margin-top: 8%;
+  margin-left: 32%;
+  color: #fff;
+}
+.blur {
+  filter: blur(2px);
+  pointer-events: none;
+}
+.reviews {
+  height: 108vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+.reviewitem {
+  width: 60%;
+  margin-top: 14vh;
+  height: 80vh;
+  text-align: center;
+
+  background-color: #fff;
+  border: 1px solid black;
+}
+.reviews i:nth-child(1) {
+  margin-top: 22%;
+  font-size: 4rem;
+  color: rgb(230, 145, 217);
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.reviews i:nth-child(3) {
+  color: rgb(230, 145, 217);
+  font-size: 4rem;
+  margin-top: 22%;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.reviewitem h3 {
+  font-size: 3rem;
+  color: rgb(189, 45, 167);
+  font-weight: 800;
+}
+.paras {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 4%;
+  width: 90%;
+  margin-left: 4%;
+}
+
+.his {
+  width: 30vh;
+  background-color: black;
+  height: 2px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.hees {
+  width: 60%;
+  height: 160vh;
+  background-color: bisque;
+  margin-left: 20%;
+  margin-top: 8%;
+  text-align: center;
+}
+.aboutsup {
+  margin-top: 2%;
+}
+.aboutsup h2 {
+  color: purple;
+  font-size: 2rem;
+}
+.aboutsdown p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+@media (max-width: 845px) {
+  .imagecarousal img {
+    width: 72%;
+    height: 83%;
+  }
+  .secondone {
+    margin-top: -1%;
+  }
+
+  .reviews {
+    height: 152vh;
+  }
+  .reviewitem {
+    height: 136vh;
+  }
+}
+@media (max-width: 1230px) {
+  .hees {
+    height: 184vh;
+  }
+  .reviewitem {
+    height: 101vh;
+  }
+}
+@media (max-width: 915px) {
+  .hees {
+    height: 226vh;
+  }
+  .reviewitem {
+    height: 126vh;
+  }
+  .reviews {
+    height: 142vh;
+  }
+  .sides2 .nss {
+    width: 43vh;
+    height: 52vh;
+
+    margin-left: 0%;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 745px) {
+  .hees {
+    height: 264vh;
+  }
+  .reviewitem {
+    height: 161vh;
+  }
+  .reviews {
+    height: 174vh;
+  }
+}
+@media (max-width: 645px) {
+  .hees {
+    height: 304vh;
+  }
+  .reviewitem {
+    border: none;
+  }
+  .reviews {
+    height: 203vh;
+  }
+}
+@media (max-width: 565px) {
+  .hees {
+    display: none;
+  }
+
+  .reviews {
+    height: 370vh;
+  }
+
+  .imagecarousal {
+    width: 90%;
+    margin-top: 11%;
+  }
+  .imagecarousal img {
+    width: 65%;
+    height: 74%;
+  }
+  .imagecarousal i:nth-child(1) {
+    font-size: 2rem;
+    margin-top: 44%;
+  }
+  .imagecarousal i:nth-child(3) {
+    font-size: 2rem;
+    margin-top: 44%;
+  }
+}
+@media (max-width: 300px) {
+  .reviews {
+    height: 462vh;
+  }
+}

@@ -1,0 +1,233 @@
+.footer {
+  width: 100%;
+  height: 200vh;
+
+  margin-top: 8%;
+}
+.one {
+  background-color: grey;
+  height: 30vh;
+  width: 100%;
+}
+.one h2 {
+  font-size: 2rem;
+  margin-left: 39%;
+  margin-top: 4%;
+  font-weight: 200;
+}
+.wrap {
+  margin-top: 5%;
+}
+.low {
+  display: flex;
+  margin-left: 0;
+  margin-top: 4%;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.low p {
+  margin-left: 40%;
+  width: 30vh;
+}
+.two {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5%;
+}
+.up {
+  width: 20%;
+  color: bisque;
+  margin-top: 7%;
+  margin-left: 8%;
+}
+.up h1 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+.three {
+  height: 40vh;
+  background-color: bisque;
+  width: 100%;
+  margin-top: 3%;
+  border: 1px solid black;
+}
+.three h1 {
+  width: 50%;
+  margin-left: 35%;
+  /* margin-top: 10%; */
+  font-size: 2rem;
+  font-weight: 600;
+}
+.three p {
+  width: 60%;
+  margin-left: 28%;
+  /* margin-top: 10%; */
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1%;
+}
+.three input {
+  height: 30px;
+  width: 250px;
+  outline: none;
+  margin-left: 42%;
+  margin-top: 2%;
+}
+.three button {
+  height: 25px;
+  width: 120px;
+
+  margin-left: 46%;
+  margin-top: 1%;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  font-weight: 200;
+  border: 1px solid black;
+}
+.four {
+  height: 75vh;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.four .left,
+.four .center {
+  margin-top: 10%;
+}
+.four .left h2,
+.four .center h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.four .left .f,
+.four .center .g {
+  margin-top: 2%;
+}
+.four .left .f li,
+.four .center .g li {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.four .Right {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: column;
+}
+.four .Right .rightup h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+.four .Right .rightup h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fff;
+  margin-top: 15px;
+}
+.four .Right .rightdown {
+  margin-top: 10%;
+}
+.four .Right .rightdown h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  margin-top: 2%;
+}
+.icons {
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 20vh;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 5%;
+}
+.icons i {
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+}
+@media (max-width: 920px) {
+  .low {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .one h2 {
+    margin-left: 0;
+  }
+  .one {
+    height: 87vh;
+    align-items: center;
+    text-align: center;
+  }
+  .wrap {
+    text-align: center;
+  }
+  .sees {
+    margin-left: 0;
+    width: 100%;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+  }
+  .up {
+    width: 100%;
+    margin-left: 0;
+  }
+  .three {
+    height: 83vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .three h1,
+  .three p {
+    margin-left: 0;
+    width: 100%;
+  }
+  .three input,
+  .three button {
+    width: 50%;
+    margin-left: 0;
+  }
+  .four {
+    display: flex;
+    flex-direction: column;
+    height: 164vh;
+  }
+  .four .left,
+  .four .center {
+    text-align: center;
+  }
+  .four .Right {
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 350px) {
+  .three {
+    height: 120vh;
+  }
+}
+/* @media (max-width: 444px) {
+  .three {
+    height: 120vh;
+  }
+} */

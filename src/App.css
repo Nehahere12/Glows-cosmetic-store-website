@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* common css  */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pic {
+  width: 100%;
+  height: 60vh;
+
+  background-image: url("C:\Users\91724\Desktop\self projects\React projects\cosmo\makeup\src\components\images\h2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+}
+.pics {
+  width: 100%;
+  height: 60vh;
+
+  background-image: url("./components/images/e1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+}
+.picss {
+  width: 100%;
+  height: 60vh;
+
+  background-image: url("./components/images/lz.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+}
+.h22 {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidess {
+  width: 100%;
+
+  margin-top: 5%;
+  display: flex;
+  height: 10vh;
+}
+.sidesrs {
+  margin-top: 5%;
+  display: flex;
+  height: 10vh;
+  margin-left: 7%;
+}
+.sidesrss {
+  margin-top: 5%;
+  display: flex;
+  height: 10vh;
+  margin-left: 2%;
+}
+.reff {
+  display: flex;
+
+  margin-left: 10vh;
+  width: 20vh;
+}
+.reff input {
+  border: 1px solid purple;
+}
+.reff p {
+  color: purple;
+  margin-top: 17%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sides2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+  gap: 20px; /* space between grid items */
+  width: 80%;
+
+  min-height: 60vh;
+  padding: 20px;
+  margin-left: 10%;
+}
+.sides2 .nss {
+  width: 50vh;
+  height: 50vh;
+  background-color: beige;
+  margin-top: 9.5%;
+  margin-left: 5%;
+  border: 1px solid black;
+  transition: 0.2s ease-out;
+}
+.sides2 .nss:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.nss img {
+  height: 30vh;
+  width: 30vh;
+  margin-top: 5%;
+  margin-left: 20%;
+  transition: 0.2s ease;
+}
+.nss img:hover {
+  border-radius: 50%;
+}
+.nss h1 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: brown;
+  margin-left: 5%;
+  margin-top: 4%;
+  width: 80%;
+}
+.news2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.news2 p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 5%;
+}
+.news2 p:nth-child(2) {
+  font-size: 19px;
+  font-weight: 200;
+  margin-left: 50%;
+  width: 20%;
+  background-color: blanchedalmond;
+}
+@media (max-width: 945px) {
+  .sidesrs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+    height: 40vh;
+    margin-left: 14%;
   }
-  to {
-    transform: rotate(360deg);
+  .sides2 .nss {
+    transition: none;
+  }
+  .sides2 .nss:hover {
+    transform: none;
+  }
+  .sidess {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+    height: 40vh;
+    margin-left: 14%;
+  }
+  .sidesrss {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+    height: 40vh;
+    margin-left: 18%;
   }
 }

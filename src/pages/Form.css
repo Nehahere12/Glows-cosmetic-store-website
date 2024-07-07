@@ -1,0 +1,56 @@
+.form1 {
+  background-color: rgb(96, 20, 96);
+  width: 25%;
+  height: 68vh;
+  text-align: center;
+  margin-left: 39%;
+  margin-top: 8%;
+}
+.form1 h1 {
+  margin-top: 30px;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: white;
+  width: 85%;
+  margin-left: 6%;
+}
+.form2 {
+  margin-top: 3%;
+  margin-right: 10%;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+
+  line-height: 80px;
+}
+.form2 input {
+  width: 70%;
+  height: 28px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+.form2 button {
+  color: purple;
+  background-color: white;
+  height: 30px;
+  width: 20vh;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.form2 button:hover {
+  transform: scale(1.1);
+  margin-left: 4%;
+
+  color: brown;
+}
+.new {
+  background-color: black;
+  width: 30vh;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
